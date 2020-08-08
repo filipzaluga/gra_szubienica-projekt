@@ -1,0 +1,103 @@
+body
+{
+    background-color: #000000;
+    color: lightgrey;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    width: 1000px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 20px;
+    min-height: 60px;
+    max-height: 60px;
+}
+
+#board
+{
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    min-height: 60px;
+    max-height: 60px;
+}
+
+#gallows
+{
+    float: left;
+    width: 500px;
+    text-align: center;
+    min-height: 280px;
+}
+
+#alphabet
+{
+    float: left;
+    width: 500px;
+    text-align: center;
+    min-height: 280px;
+}
+
+.letter
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+.letter:hover
+{
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+
+.win
+{
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.win:hover
+{
+    color: white;
+}
+
+.loss
+{
+    color: red;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.loss:hover
+{
+    color: white;
+}
